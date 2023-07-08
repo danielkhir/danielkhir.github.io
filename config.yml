@@ -21,7 +21,7 @@ params:
   title: danielmuhd
   description: "Personal website"
   keywords: [Blog, Portfolio, PaperMod]
-  author: daniel
+  author: danielmuhd
   DateFormat: "January 2, 2006"
   defaultTheme: dark # auto, dark, light
   disableThemeToggle: true
@@ -51,15 +51,20 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
-  label:
-    text: "danielmuhd"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+  # label:
+  #   text: "danielmuhd"
+  #   icon: /apple-touch-icon.png
+  #   iconHeight: 35
 
   # home-info mode
   homeInfoParams:
-    Title: "Hello \U0001F44B"
-    Content: just another personal website
+    Title: "Hi, I'm Daniel. \U0001F44B"
+    Content: |
+      I'm a CS student, part-time software developer, and full-time nerd.
+
+      This is my personal website. Sometimes I write about stuff that interests me.
+
+      [More about me.](/about)
 
   socialIcons:
     - name: github
