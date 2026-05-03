@@ -1,6 +1,6 @@
 # dotdev
 
-Personal [website](https://danielmuhd.dev).
+Personal [website](https://danielkhir.github.io).
 
 Powered by [Hugo](https://gohugo.io/) & [PaperMod](https://github.com/adityatelange/hugo-PaperMod/).
 

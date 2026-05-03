@@ -1,6 +1,5 @@
-baseURL: "https://danielmuhd.dev/"
-title: danielmuhd
-paginate: 5
+baseURL: "https://danielkhir.github.io/"
+title: Daniel Khir
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -18,19 +17,20 @@ taxonomies:
 
 params:
   env: production
-  title: danielmuhd
+  title: Daniel Khir
   description: "Personal website"
   keywords: [Blog, Portfolio, PaperMod]
-  author: danielmuhd
+  author: Daniel Khir
   DateFormat: "January 2, 2006"
-  defaultTheme: dark # auto, dark, light
-  disableThemeToggle: true
+  defaultTheme: auto # auto, dark, light
+  disableThemeToggle: false
+  social: true
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -52,7 +52,7 @@ params:
     safari_pinned_tab:  "/assets/safari-pinned-tab.svg"
 
   # label:
-  #   text: "danielmuhd"
+  #   text: "danielkhir"
   #   icon: /apple-touch-icon.png
   #   iconHeight: 35
 
@@ -60,37 +60,29 @@ params:
   homeInfoParams:
     Title: "Hi, I'm Daniel. \U0001F44B"
     Content: |
-      I'm a CS student, part-time software developer, and full-time nerd.
-
-      This is my personal website. Sometimes I write about stuff that interests me.
-
-      [More about me.](/about)
+      Currently doing my Master's in Computer Science at the [University of Augsburg](https://www.uni-augsburg.de). When I'm not sitting in Machine Learning lectures, I build data-driven AI applications at [inovex](https://inovex.de). I am a fast learner who enjoys working in agile environments. In my free time, I read science fiction and work on my homelab.
 
   socialIcons:
     - name: github
-      url: "https://github.com/danielmuhd"
+      url: "https://github.com/danielkhir"
     - name: linkedin
-      url: "https://linkedin.com/in/danielmuhd"
+      url: "https://linkedin.com/in/danielkhir"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
 menu:
   main:
-    - identifier: about
-      name: about
-      url: /about/
+    - identifier: posts
+      name: Posts
+      url: /posts/
       weight: 10
-    - identifier: archives
-      name: archives
-      url: /archives/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 10
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 10
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
